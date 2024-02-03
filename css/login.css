@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,700;1,500&display=swap");
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #3b8875, #073e5d);
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  margin-top: 2%;
+  position: relative;
+}
+hr {
+  border: 1px solid white;
+  width: 310px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 53px;
+  font-family: "Arimo", serif;
+  font-weight: bold;
+  position: relative;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 15px;
+  color: gainsboro;
+  text-align: center;
+  position: relative;
+}
+.error-message{
+  text-align: center;
+  color: red;
+}
+.container {
+  margin-top: 10px;
+}
+.form-control:focus {
+  outline: 2px solid #3b8875;
+}
+.custom-btn {
+  width: 172px;
+  height: 37px;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.custom-btn1 {
+  width: 172px;
+  height: 37px;
+  border-radius: 20px;
+  background-color: #3b8875;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  position: relative;
+}
+.custom-btn:hover {
+  background-color: #3b8875;
+  color: white;
+  outline: 1px solid white;
+  outline-offset: +5px;
+}
+.custom-btn1:hover {
+  background-color: white;
+  color: black;
+  outline: 1px solid #3b8875;
+  outline-offset: +5px;
+}
+a{
+  position: relative;
+}
+.container1 {
+  position: relative;
+  top: 20px;
+}
+.input-box {
+  width: 330px;
+  box-sizing: border-box;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+.input {
+  height: 45px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  margin-bottom: 20px;
+  color: white;
+}
+.input-box .input-field label {
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.input-field .input:focus ~ label {
+  top: -10px;
+  font-size: 13px;
+}
+.input-field .input:valid ~ label {
+  top: -10px;
+  font-size: 13px;
+  color: white;
+}
+.input-field .input:focus,
+.input-field .input:valid {
+  border-bottom: 1px solid white;
+}
+span a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  transition: 0.5s;
+}
+span a:hover {
+  text-decoration: underline;
+  color: rgb(6, 148, 65);
+}
+	svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+    width: 100%;
+    height: 100%;
+		box-sizing: border-box;
+		display: block;
+		background-color: white;
+    background-image: linear-gradient(to bottom, #3b8875, #0e4166);
+	}
+.error-message{
+   position: relative;
+}
+  
